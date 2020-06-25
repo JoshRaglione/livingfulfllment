@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Gotu&display=swap');
+
+html {
+    height: 100%;
+}
+body {
+    background: url(../images/ren-ran-Jy6luiLBsrk-unsplash.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    text-align: center;
+    color: white;
+    font-family: 'Gotu', sans-serif;
+}
+main {
+    background-color: #274322;
+}
+
+.navbar-brand {
+    display: inline-block;
+    padding-top: .3125rem;
+    padding-bottom: .3125rem;
+    margin-right: 1rem;
+    font-size: 1.5rem;
+    line-height: inherit;
+    white-space: nowrap;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(40, 40, 40);
+    font-size: .8rem;
+}
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: rgb(58, 58, 58);
+}
+.navbar-light .navbar-brand {
+    color: rgba(9, 9, 9, 0.9);
+}
+.bg-light {
+    background-color: #93f680!important;
+}
+h1 {
+    font-size: 5rem;
+    text-shadow: 0px 4px 8px rgba(171, 171, 171, .5), 0px 4px 8px rgba(106, 101, 91, 0.851), 0px 4px 8px rgba(91, 72, 36, 0.851);
+    font-weight: 700;
+    margin-top: 5%;
+    margin-left: 20%;
+    text-decoration: underline;
+} 
+h2 {
+    color: #51ffe0;
+}
+.headshot {
+  height: 13rem;
+  width: 13rem;
+  border: 3px double #00d3a3;
+}
+article {
+    border: 2px solid black;
+    padding: 10px;
+}
+footer {
+    background-color: #000000c9;
+    height: 35.5%;
+    text-align: center;
+}
